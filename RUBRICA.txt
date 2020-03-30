@@ -1,0 +1,36 @@
+Puntos creados:
+
+- Creación terrain
+
+- 3 Triggers
+  -Item recolectable
+  -Zona de muerte
+  -Inversión Controles
+
+- Luces + Ciclo día y noche
+
+- 2 animaciones
+  -Idle agachado
+  -Muerte
+
+- Sonidos alternados y pitch aleatorio
+
+- Restart en el Level Blueprint
+
+- IAs que van y golpean al player, y el player las puede matar.
+
+- Pelotas físicas para el player y IAs
+
+
+Descripción:
+
+La mesh naranja es la deadzone, la mesh blanca es el trigger de inversion.
+
+Con la tecla F, el player muere y se resetea la escena.
+Con la tecla G, el player se agacha.
+Con la tecla R, se resetea la escena.
+
+Si la IA está a tu lada va a salir un printde que se está ejecutando la task de golpear.
+Si el jugador esta cerca de la IA y se hace click izquierdo, la IA muere. (Deaparece)
+
+La pelota con textura es la que el player puede mover.
